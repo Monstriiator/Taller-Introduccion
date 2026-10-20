@@ -1,0 +1,84 @@
+.table-container {
+    width: 100%;
+}
+
+.students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40px;
+    border: 4px double #03164e;
+}
+
+.students-table th,
+.students-table td {
+    border: 1px solid #03164e;
+}
+
+.column-text {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.column-actions {
+    text-align: center;
+}
+
+.edit-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.column-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px;
+}
+
+
+
+.edit-button:hover {
+    background-color: #388e3c;
+}
+
+.delete-button:hover {
+    background-color: #c62828;
+}
+
+
+.edit-button:active {
+    background-color: #1b5e20;
+}
+
+.delete-button:active {
+    background-color: #8e1b1b;
+}
+
+.students-table tbody tr:nth-child(even) {
+    background-color: #f2f5ff;
+}
+
+.students-table tbody tr:first-child td {
+    border-top: 2px solid #03164e;
+}
+
+.students-table tbody tr:last-child td {
+    border-bottom: 2px solid #03164e;
+}
+
+.students-table tbody tr:hover {
+    background-color: #e3e9ff;
+}

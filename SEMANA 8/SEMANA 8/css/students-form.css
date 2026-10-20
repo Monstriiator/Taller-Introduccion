@@ -1,0 +1,64 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    justify-content: center;
+    
+}  
+
+.form-student{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+body{
+    margin: 0%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+    
+}
+
+.container-forms{
+    border: red 1px solid;
+    background-color: rgb(166, 255, 148);
+}
+
+
+
+
+.form-student input:focus {
+    outline: none;
+    border: 2px solid #040d6b;
+    background-color: #eef1ff;
+}
+
+
+.add-btn:hover {
+    background-color: #4CAF50;
+    cursor: pointer;
+}
+
+.cancel-btn:hover {
+    background-color: #f44336;
+    cursor: pointer;
+}
+
+
+.add-btn:active,
+.cancel-btn:active {
+    opacity: 0.7;
+}
